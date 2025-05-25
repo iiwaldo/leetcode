@@ -17,7 +17,7 @@ class Solution(object):
         res = []
         for i in range(len(nums)):
             if i == 0:
-                res.append(right[i])
+                res.append(right[i+1])
             elif i == len(nums)-1:
                 res.append(left[i-1])
             else:
